@@ -1,0 +1,110 @@
+html {
+    background-image: url("bg.png");
+    background-repeat: repeat;
+    height: 800px;
+}
+
+
+body {
+	background-image: url(icon.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+:visited {
+	color: #a9a;
+}
+
+.headermain {
+	font-size: 40px;
+	color: #333;
+	с
+	text-align: center;
+}
+
+.headersec {
+	font-size: 20px;
+	color: #ccc;
+	font-style: italic;
+	text-align: center;
+}
+
+#h2 {
+	font-size: 16px;
+	color: #888;
+	font-style: sans-serif;
+	font-weight: bold;
+}
+
+.list1 {
+	text-align: center;
+	font-style: sans-serif;
+	list-style: none;
+	font-size: 30px;
+}
+
+.list1_link {
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+	
+.list1_item:hover {
+	background: #eee;
+	list-style-image: url(short_arrow_right-512.png);
+}
+.list1_item:active {
+	text-decoration: overline;
+}
+
+.list1_link:hover {
+	color: #333;
+}
+
+.content {
+	text-indent: 40px;
+	font-size: 18px;
+	color: #222;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.content:first-letter {
+	font-size: 2em;
+	color: #ea3;
+}
+
+.content:first-line {
+	font-size: 1.3em;
+	color: #a83;
+}
+
+.header {
+	font-family: cursive;
+	font-size: 35px;
+	text-align: justify;
+	}
+.decorated-table {
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-row {
+	background: #666;
+	color: white;
+}
+
+.decorated-cell {
+
+}
+
+.decorated-row:hover {
+	background: #ccc;
+}
+
+.summary-row {
+	background: #a83;
+	color: white;
+}
